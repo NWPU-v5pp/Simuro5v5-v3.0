@@ -3,3 +3,9 @@ StrategyServer/__pycache__
 .gitignore.swp
 Temp
 Library
+*.sln
+*.csproj
+*.sln
+*.userprefs
+*.unityproj
+*.DS_Store
