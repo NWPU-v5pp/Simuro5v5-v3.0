@@ -1,4 +1,4 @@
->目录
+# 目录
 
 <!-- TOC -->
 
@@ -35,66 +35,66 @@
 
 # 1. 用户手册
 
->感谢使用 **SimuSot5v5 v3.0**。本文档将帮助你学会使用平台。
+感谢使用 **SimuSot5v5 v3.0**。本文档将帮助你学会使用平台。
 
 ## 1.1. 启动与退出
 
->安装程序后，双击快捷方式启动程序，弹出主界面。
+安装程序后，双击快捷方式启动程序，弹出主界面。
 
->在主界面中，点击 `Exit` 退出程序。
+在主界面中，点击 `Exit` 退出程序。
 
 ## 1.2. 加载策略
 
->在主界面中，点击 `Settings` ，设置界面上方有蓝色的`Blue`标签和黄色的`Yellow`标签。在 `Blue`后的文本框中输入蓝方策略名，在 `Yellow`后的文本框中输入黄方策略名（例如：如果你是蓝方，你的策略是 *Strategy.dll*，在 `Blue`后的文本框中输入 *Strategy.dll*），点击`Load` 。
+在主界面中，点击 `Settings` ，设置界面上方有蓝色的`Blue`标签和黄色的`Yellow`标签。在 `Blue`后的文本框中输入蓝方策略名，在 `Yellow`后的文本框中输入黄方策略名（例如：如果你是蓝方，你的策略是 *Strategy.dll*，在 `Blue`后的文本框中输入 *Strategy.dll*），点击`Load` 。
 
 ## 1.3. 比赛
 
->在主界面中，点击 `Game`开始正式比赛。
+在主界面中，点击 `Game`开始正式比赛。
 
->记分牌在比赛界面的右下角。
+记分牌在比赛界面的右下角。
 
->鼠标左键暂停/继续比赛
+鼠标左键暂停/继续比赛
 
->鼠标右键或按下`Esc`键暂停比赛，进入比赛菜单。在比赛菜单中，点击`Exit` 返回主界面，点击`Replay`进入回放界面，点击`Resume`返回比赛。 你也可以选择再次点击鼠标右键或按下`Esc`键返回比赛。
+鼠标右键或按下`Esc`键暂停比赛，进入比赛菜单。在比赛菜单中，点击`Exit` 返回主界面，点击`Replay`进入回放界面，点击`Resume`返回比赛。 你也可以选择再次点击鼠标右键或按下`Esc`键返回比赛。
 
 ## 1.4. 回放
 
->回放界面回放你上一次退出回放到这一次进入回放的比赛过程。
+回放界面回放你上一次退出回放到这一次进入回放的比赛过程。
 
->回访进度条在比赛场地下方，并显示`当前拍数/总拍数`。你可以通过拖动进度条调节回放的位置。
+回访进度条在比赛场地下方，并显示`当前拍数/总拍数`。你可以通过拖动进度条调节回放的位置。
 
->你也可以选择自动回放。点击`播放/暂停`控制自动回放。
+你也可以选择自动回放。点击`播放/暂停`控制自动回放。
 
->正放时，点击一次`快进` 播放速度加快为2倍，点击一次`快退` 播放速度减慢为0.5倍。最大播放速度是8倍速。以最慢速正放，点击一次`快退` 变为倒放。
+正放时，点击一次`快进` 播放速度加快为2倍，点击一次`快退` 播放速度减慢为0.5倍。最大播放速度是8倍速。以最慢速正放，点击一次`快退` 变为倒放。
 
->倒放时，点击一次`快进` 播放速度减慢为0.5倍，点击一次`快进` 播放速度加快为2倍。最大播放速度是8倍速。以最慢速倒放，点击一次`快进` 变为正放。
+倒放时，点击一次`快进` 播放速度减慢为0.5倍，点击一次`快进` 播放速度加快为2倍。最大播放速度是8倍速。以最慢速倒放，点击一次`快进` 变为正放。
 
->如果你想恢复原始回放状态，点击`播放/暂停`，回到单倍速正放。
+如果你想恢复原始回放状态，点击`播放/暂停`，回到单倍速正放。
 
->按下`Esc`键暂停回放，进入回放菜单。在回放菜单中，点击`Exit` 返回主界面，点击`Back to Game`进入比赛界面，点击`Resume`返回回放。 你也可以选择再次按下`Esc`键返回回放。
+按下`Esc`键暂停回放，进入回放菜单。在回放菜单中，点击`Exit` 返回主界面，点击`Back to Game`进入比赛界面，点击`Resume`返回回放。 你也可以选择再次按下`Esc`键返回回放。
 
 ## 1.5. 设置
 
->在主界面中，点击 `Settings`进入设置界面。
+在主界面中，点击 `Settings`进入设置界面。
 
 ## 1.6. 更多信息
 
->我们会努力解决你的更多疑问。请通过以下方式联系我们：
+我们会努力解决你的更多疑问。请通过以下方式联系我们：
 
 - 主页： npu5v5.cn
-- 邮件： <footbal5v5_uav@163.com>
+- 邮件： <npu5v5@163.com>
 
 **SimuSot5v5**将因为你的建议变得更好。
 
 
 # 2. 策略服务器
-> 此版本策略服务器支持多次使用。策略服务器进程在加载一个dll策略之后，支持释放掉该dll，并重新在此进程中加载一个dll，避免了平台每次加载策略都需要等待策略服务器长时间的启动。
+ 此版本策略服务器支持多次使用。策略服务器进程在加载一个dll策略之后，支持释放掉该dll，并重新在此进程中加载一个dll，避免了平台每次加载策略都需要等待策略服务器长时间的启动。
 ### 2.0.1. remarks
 - 策略服务器可能崩溃，之后需要重新启动
 - 在命令行参数中可以指定策略服务器的日志文件以及日志级别
 
 ## 2.1. 通讯协议
-> 服务器（*策略服务器*）与客户端（*比如模拟平台*）之间的通讯，传输层上使用UDP/TCP协议，并使用UTF8编码的Json对象作为数据的载体。
+ 服务器（*策略服务器*）与客户端（*比如模拟平台*）之间的通讯，传输层上使用UDP/TCP协议，并使用UTF8编码的Json对象作为数据的载体。
 
 基本的数据格式如下
 
@@ -426,7 +426,7 @@
     > The human operator can call for 'time-out' to notify the referee. Each team will be entitled for two time-outs in a game and each shall be of 2 minutes duration.
 
 ### 3.2.3. Laws 3 & 4 
-> Laws 3 & 4 have been omitted due to their covering of the computer system information that can control the physical robots and the vision system that is used for the physical robots.
+ Laws 3 & 4 have been omitted due to their covering of the computer system information that can control the physical robots and the vision system that is used for the physical robots.
 
 ### 3.2.4. Law 5 : Game Duration
 1. The duration of a game shall be two equal periods of 5 minutes each, with a half time interval for 10 minutes. An official timekeeper will pause the clock during substitutions, while transporting an injured robot from the field, during time-out and during such situations that deem to be right as per the discretion of the timekeeper.
@@ -438,7 +438,7 @@
 
 2. At the commencement of the game, the attacking team will be allowed to position their robots freely in their own area and within the center circle. Then the defending team can place their robots freely in their own area except within the center circle.
 
-> At the beginning of the first and second halves, and after a goal has been scored, the ball should be kept within the center circle and the ball should be kicked or passed towards the team's own side. With a signal from the referee, the game shall be started and all robots may move freely.
+ At the beginning of the first and second halves, and after a goal has been scored, the ball should be kept within the center circle and the ball should be kicked or passed towards the team's own side. With a signal from the referee, the game shall be started and all robots may move freely.
 
 3. At the beginning of the game or after a goal has been scored, the game shall be commenced/continued, with the positions of the robots as described in Law 6.2.
 
@@ -459,7 +459,7 @@
     3. Thirty (30) seconds pass after the referee's whistle.
 
 ### 3.2.7. Law 8 : Fouls
-> A foul will be called for in the following cases.
+ A foul will be called for in the following cases.
 
 1. Colliding with a robot of the opposite team, either intentionally or otherwise: the referee will call such fouls that directly affect the play of the game or that appear to have potential to harm the opponent robot. When a defender robot intentionally pushes an opponent robot, a free kick will be given to the opposite team. It is permitted to push the ball and an opponent player backwards provided the pushing player is always in contact with the ball.
 
@@ -480,7 +480,7 @@
 9. Defending with more than three robots in the penalty area shall be penalized by a penalty-kick. (A robot is considered to be in the goal area if it is more than 50% inside, as judged by the referee.)
 
 ### 3.2.8. Law 9 : Play Interruptions
-> The play shall be interrupted and relocation of robots shall be done by a human operator, only when:
+ The play shall be interrupted and relocation of robots shall be done by a human operator, only when:
 
 1. A robot has to be changed.
 
@@ -491,10 +491,10 @@
 4. Referee calls goal kick (Law 12) or free-ball (Law 13).
 
 ### 3.2.9. Law 10 : Free Kick
-> NULL
+ NULL
 
 ### 3.2.10. Law 11 : Penalty-Kick
-> A penalty-kick will be called under the following situations.
+ A penalty-kick will be called under the following situations.
 
 1. Defending with more than one robot in a goal area (Law 8.4.).
 
@@ -507,7 +507,7 @@
     > When the referee calls a penalty-kick, the ball will be placed at the relevant penalty kick position (PK) on the playground (Appendix 1). The robot taking the kick shall be placed behind the ball. While facing a penalty kick one of the sides of the goalkeeper must be in touch with the goal line. The goalkeeper may be oriented in any direction. Other robots shall be placed freely within the other side of the half-line, but the attacking team will get preference in positioning their robots. The game shall restart normally (all robots shall start moving freely) after the referee's whistle. The robot taking the penalty-kick may kick or dribble the ball.
 
 ### 3.2.11. Law 12 : Goal Kick
-> A goal kick will be called under the following situations.
+ A goal kick will be called under the following situations.
 
 1. When an attacking robot pushes the goalkeeper in its goal area, the referee shall call goal kick as goalkeeper charging (Law 8.2.).
 
@@ -522,6 +522,6 @@
     > During goal kick only the goalkeeper will be allowed within the penalty area and the ball can be placed anywhere within the penalty area. Other robots of the team shall be placed outside the penalty area during goal kick. The attacking team will get preference in positioning their robots anywhere on the playground, but it must be as per Law 8.3. The defending team can then place its robots within their own side of the playground. The game shall restart with the referee's whistle.
 
 ### 3.2.12. Law 13 : Free-Ball
-> Referee will call a free-ball when a stalemate occurs for 10 seconds outside the goal area.
+ Referee will call a free-ball when a stalemate occurs for 10 seconds outside the goal area.
 
-> When a free-ball is called within any quarter of the playground, the ball will be placed at the relevant free ball position (FB) (Appendix 1). One robot per team will be placed at locations 25cm apart from the ball position in the longitudinal direction of the playground. Other robots (of both teams) can be placed freely outside the quarter where the free-ball is being called, but with the rule that, the defending team will get their preference in positioning their robots. The game shall resume when the referee gives the signal and all robots may then move freely.
+ When a free-ball is called within any quarter of the playground, the ball will be placed at the relevant free ball position (FB) (Appendix 1). One robot per team will be placed at locations 25cm apart from the ball position in the longitudinal direction of the playground. Other robots (of both teams) can be placed freely outside the quarter where the free-ball is being called, but with the rule that, the defending team will get their preference in positioning their robots. The game shall resume when the referee gives the signal and all robots may then move freely.
