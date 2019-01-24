@@ -1,4 +1,5 @@
 StrategyServer/.idea
 StrategyServer/__pycache__
 .gitignore.swp
-**.meta
+Temp
+Library
